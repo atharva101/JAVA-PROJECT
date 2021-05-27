@@ -15,7 +15,7 @@
         }
 
         stages {
-            /*stage ('Clean') {
+            stage ('Clean') {
                 steps {
                     bat 'mvn clean'
                     }
@@ -30,8 +30,8 @@
                     bat 'mvn install'
                 }
             }
-        */
-        /*---------------------
+        
+        /*----------
         stage ('Sonar Analysis'){
             steps {
              withSonarQubeEnv('sonarqube') {
